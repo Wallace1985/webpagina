@@ -1,0 +1,99 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin:0;
+
+}
+
+.center{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+}
+
+
+.main{
+  padding: 40px 0;
+  width: 100%;
+  background-color: blueviolet;
+  background-image:url(C:\Users\walla\OneDrive\Documentos\projetodeiniciaçãociêntifica\landing_page\src\img.sensores\sensores-na-agricultura.jpg);
+  background-position: center;
+  background-size:cover;
+  min-width: 400px;
+
+
+}
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.menu h3{
+color: white;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 5px;
+}
+.form{
+  display: flex;
+  width: 100%;
+ max-width: 600px;
+ margin: 10px auto;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 48px auto;
+}
+ .form h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: normal;
+ }
+.form input{
+  width: 30%;
+  justify-content: space-around;
+  height: 30px;
+  margin: 8px 0px;
+}
+.item form{
+  margin: 0 auto;
+  max-width: 540px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.item form input[type = "text"]{
+width: 50%;
+height: 30px;
+margin: 8px 0px;
+padding-left: 10px;
+}
+.items-form input[type= "sbmit"]{
+width: 100%;
+height: 40px;
+background-color: green;
+cursor: pointer;
+color: white;
+border: 0;
+font-size: 19px;
+
+}
+.conteudo-single{
+  margin-top: 40px;
+  width: 50%;
+  padding: 8px 300px;
+}
+@media screen and (max-width: 768px){
+  .items-form input[type= text]{
+    width: 100%;
+  }
+  
+
+  
+}
